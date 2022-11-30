@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:context=".MainActivity">
+
+        <Button
+            android:id="@+id/button_frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="frameLayout"/>
+
+        <Button
+            android:id="@+id/button_ScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ScrollView"/>
+
+        <Button
+            android:id="@+id/button_mission4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="mission4"/>
+
+        <Button
+            android:id="@+id/button_sampleDrawable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Drawable"/>
+
+        <Button
+            android:id="@+id/button_sampleEvent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Event"/>
+
+        <Button
+            android:id="@+id/button_sampleOrientation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Orientation"/>
+
+        <Button
+            android:id="@+id/button_sampleThread"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thread"/>
+
+        <Button
+            android:id="@+id/button_sampleThread2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thread2"/>
+
+    </LinearLayout>
+
+
+
+</layout>
