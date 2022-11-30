@@ -58,6 +58,12 @@
             android:layout_height="wrap_content"
             android:text="Thread2"/>
 
+        <Button
+            android:id="@+id/button_Handler_Delayed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Handler_Delayed"/>
+
     </LinearLayout>
 
 

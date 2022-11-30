@@ -13,6 +13,13 @@
         android:theme="@style/Theme.MyApplicationJava"
         tools:targetApi="31">
         <activity
+            android:name=".HandlerDelayedActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".SampleThreadActivity2"
             android:exported="false">
             <meta-data

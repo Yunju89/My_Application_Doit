@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         binding.buttonSampleEvent.setOnClickListener(this);
         binding.buttonSampleThread.setOnClickListener(this);
         binding.buttonSampleThread2.setOnClickListener(this);
+        binding.buttonHandlerDelayed.setOnClickListener(this);
 
     }
 
@@ -99,6 +100,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.button_sampleThread2:
                 intent = new Intent(this, SampleThreadActivity2.class);
+                break;
+
+            case R.id.button_Handler_Delayed:
+                intent = new Intent(this, HandlerDelayedActivity.class);
                 break;
 
             default:
