@@ -76,6 +76,12 @@
             android:layout_height="wrap_content"
             android:text="Sample_Http"/>
 
+        <Button
+            android:id="@+id/button_Sample_Volley"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sample_Volley"/>
+
     </LinearLayout>
 
 

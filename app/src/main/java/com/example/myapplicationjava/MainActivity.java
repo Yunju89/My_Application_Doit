@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         binding.buttonHandlerDelayed.setOnClickListener(this);
         binding.buttonSampleSocket.setOnClickListener(this);
         binding.buttonSampleHttp.setOnClickListener(this);
+        binding.buttonSampleVolley.setOnClickListener(this);
 
     }
 
@@ -82,6 +83,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.button_Sample_Http:
                 intent = new Intent(this, SampleHttpActivity.class);
+                break;
+
+            case R.id.button_Sample_Volley:
+                intent = new Intent(this, SampleVolleyActivity.class);
                 break;
 
             default:
