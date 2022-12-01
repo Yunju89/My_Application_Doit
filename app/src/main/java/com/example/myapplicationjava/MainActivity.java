@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         binding.buttonSampleThread2.setOnClickListener(this);
         binding.buttonHandlerDelayed.setOnClickListener(this);
         binding.buttonSampleSocket.setOnClickListener(this);
+        binding.buttonSampleHttp.setOnClickListener(this);
 
     }
 
@@ -77,6 +78,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.button_Sample_Socket:
                 intent = new Intent(this, SampleSocketActivity.class);
+                break;
+
+            case R.id.button_Sample_Http:
+                intent = new Intent(this, SampleHttpActivity.class);
                 break;
 
             default:
