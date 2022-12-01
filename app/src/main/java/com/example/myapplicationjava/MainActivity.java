@@ -23,38 +23,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public void onClickView() {
-//        binding.buttonFrameLayout.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent intent = new Intent(getApplicationContext(), FrameLayout.class);
-//                startActivity(intent);
-//            }
-//        });
-//
-//        binding.buttonScrollView.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent intent = new Intent(getApplicationContext(), ScrollView.class);
-//                startActivity(intent);
-//            }
-//        });
-//
-//        binding.buttonMission4.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent intent = new Intent(getApplicationContext(), Mission4.class);
-//                startActivity(intent);
-//            }
-//        });
-//
-//        binding.buttonSampleDrawable.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent intent = new Intent(MainActivity.this, SampleDrawable.class);    //MainActivity.this 가능능
-//                startActivity(intent);
-//            }
-//        });
-
         binding.buttonFrameLayout.setOnClickListener(this);
         binding.buttonScrollView.setOnClickListener(this);
         binding.buttonMission4.setOnClickListener(this);
@@ -63,6 +31,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         binding.buttonSampleThread.setOnClickListener(this);
         binding.buttonSampleThread2.setOnClickListener(this);
         binding.buttonHandlerDelayed.setOnClickListener(this);
+        binding.buttonSampleSocket.setOnClickListener(this);
 
     }
 
@@ -104,6 +73,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.button_Handler_Delayed:
                 intent = new Intent(this, HandlerDelayedActivity.class);
+                break;
+
+            case R.id.button_Sample_Socket:
+                intent = new Intent(this, SampleSocketActivity.class);
                 break;
 
             default:

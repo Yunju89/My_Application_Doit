@@ -64,6 +64,12 @@
             android:layout_height="wrap_content"
             android:text="Handler_Delayed"/>
 
+        <Button
+            android:id="@+id/button_Sample_Socket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sample_Socket"/>
+
     </LinearLayout>
 
 
